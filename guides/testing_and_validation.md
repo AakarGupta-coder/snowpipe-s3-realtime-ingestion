@@ -143,7 +143,7 @@ Expected signs:
 | Row count | Uploaded test files have non-zero loaded rows |
 | Last load time | Timestamps align with the recent test upload |
 
-## Clean Re-test
+## Clean Re-Test
 
 For a clean repeatable demo, truncate the table before uploading a fresh batch:
 
