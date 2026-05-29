@@ -38,22 +38,15 @@
 
 ## Table of Contents
 
-| No. | Section |
-|---:|---|
-| 1 | [Executive Summary](#executive-summary) |
-| 2 | [Conceptual Background](#conceptual-background) |
-| 3 | [Why Snowflake Is Useful Here](#why-snowflake-is-useful-here) |
-| 4 | [Architecture](#architecture) |
-| 5 | [Implementation Blueprint](#implementation-blueprint) |
-| 6 | [Repository Structure](#repository-structure) |
-| 7 | [Configuration Placeholders](#configuration-placeholders) |
-| 8 | [Step-by-Step Implementation](#step-by-step-implementation) |
-| 9 | [Test Data](#test-data) |
-| 10 | [Validation Queries](#validation-queries) |
-| 11 | [Security Model](#security-model) |
-| 12 | [Future Uses](#future-uses) |
-| 13 | [Troubleshooting](#troubleshooting) |
-| 14 | [Guides](#guides) |
+| Project Overview | Implementation and Operations |
+|---|---|
+| [Executive Summary](#executive-summary) | [Repository Structure](#repository-structure) |
+| [Conceptual Background](#conceptual-background) | [Configuration Placeholders](#configuration-placeholders) |
+| [Why Snowflake Is Useful Here](#why-snowflake-is-useful-here) | [Step-by-Step Implementation](#step-by-step-implementation) |
+| [Architecture](#architecture) | [Test Data](#test-data) |
+| [Implementation Blueprint](#implementation-blueprint) | [Validation Queries](#validation-queries) |
+| [Security Model](#security-model) | [Future Uses](#future-uses) |
+| [Troubleshooting](#troubleshooting) | [Guides](#guides) |
 
 ---
 
