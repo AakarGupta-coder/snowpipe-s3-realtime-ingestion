@@ -1,0 +1,31 @@
+[
+  {
+    "event_id": "iot-20260529-4001",
+    "event_time": "2026-05-29T12:00:00",
+    "user_id": "device-gateway-01",
+    "payload": {
+      "event_type": "sensor_reading",
+      "device_id": "cold-room-sensor-07",
+      "site": "warehouse-mumbai-01",
+      "temperature_celsius": 3.8,
+      "humidity_percent": 62,
+      "battery_percent": 88,
+      "alert": false
+    }
+  },
+  {
+    "event_id": "iot-20260529-4002",
+    "event_time": "2026-05-29T12:05:00",
+    "user_id": "device-gateway-01",
+    "payload": {
+      "event_type": "sensor_reading",
+      "device_id": "cold-room-sensor-07",
+      "site": "warehouse-mumbai-01",
+      "temperature_celsius": 7.4,
+      "humidity_percent": 65,
+      "battery_percent": 87,
+      "alert": true,
+      "alert_reason": "temperature_threshold_exceeded"
+    }
+  }
+]

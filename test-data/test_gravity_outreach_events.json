@@ -1,0 +1,50 @@
+[
+  {
+    "event_id": "outreach-20260529-5501",
+    "event_time": "2026-05-29T15:04:12",
+    "user_id": "campaign-service",
+    "payload": {
+      "event_type": "outreach_sent",
+      "source_system": "gravity",
+      "campaign_id": "CMP-AWV-2026-Q2",
+      "patient_id": "P-812009",
+      "channel": "sms",
+      "template_id": "annual_wellness_reminder_v3",
+      "language": "en",
+      "care_gap_measure": "AWV",
+      "delivery_status": "sent",
+      "next_action": "wait_for_response"
+    }
+  },
+  {
+    "event_id": "outreach-20260529-5502",
+    "event_time": "2026-05-29T15:18:36",
+    "user_id": "campaign-service",
+    "payload": {
+      "event_type": "outreach_response_received",
+      "source_system": "gravity",
+      "campaign_id": "CMP-HBD-2026-Q2",
+      "patient_id": "P-900143",
+      "channel": "sms",
+      "response_type": "appointment_requested",
+      "response_text": "Need appointment next week",
+      "routed_to": "scheduler_queue",
+      "sla_due_at": "2026-05-30T15:18:36"
+    }
+  },
+  {
+    "event_id": "outreach-20260529-5503",
+    "event_time": "2026-05-29T15:44:03",
+    "user_id": "campaign-service",
+    "payload": {
+      "event_type": "outreach_failed",
+      "source_system": "gravity",
+      "campaign_id": "CMP-COL-2026-Q2",
+      "patient_id": "P-700551",
+      "channel": "voice",
+      "failure_reason": "invalid_phone_number",
+      "retry_allowed": false,
+      "next_action": "verify_contact_information"
+    }
+  }
+]

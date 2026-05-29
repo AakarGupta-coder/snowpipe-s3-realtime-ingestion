@@ -1,0 +1,22 @@
+[
+  {
+    "event_id": "evt-002",
+    "event_time": "2026-05-29T05:16:00",
+    "user_id": "u002",
+    "payload": {
+      "action": "page_view",
+      "page": "/dashboard",
+      "source": "s3"
+    }
+  },
+  {
+    "event_id": "evt-003",
+    "event_time": "2026-05-29T05:17:00",
+    "user_id": "u003",
+    "payload": {
+      "action": "button_click",
+      "button": "run_pipeline",
+      "source": "s3"
+    }
+  }
+]

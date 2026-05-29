@@ -1,0 +1,54 @@
+[
+  {
+    "event_id": "ord-20260529-1001",
+    "event_time": "2026-05-29T09:10:12",
+    "user_id": "customer-1042",
+    "payload": {
+      "event_type": "order_placed",
+      "order_id": "SO-1001",
+      "channel": "mobile_app",
+      "currency": "INR",
+      "order_total": 2499.00,
+      "payment_method": "upi",
+      "items": [
+        {
+          "sku": "HEADPHONE-BT-01",
+          "name": "Bluetooth Headphones",
+          "quantity": 1,
+          "unit_price": 1999.00
+        },
+        {
+          "sku": "CABLE-USBC-02",
+          "name": "USB-C Cable",
+          "quantity": 1,
+          "unit_price": 500.00
+        }
+      ],
+      "delivery_city": "Noida",
+      "status": "confirmed"
+    }
+  },
+  {
+    "event_id": "ord-20260529-1002",
+    "event_time": "2026-05-29T09:18:46",
+    "user_id": "customer-1189",
+    "payload": {
+      "event_type": "order_placed",
+      "order_id": "SO-1002",
+      "channel": "website",
+      "currency": "INR",
+      "order_total": 1299.00,
+      "payment_method": "card",
+      "items": [
+        {
+          "sku": "BAG-LAPTOP-15",
+          "name": "Laptop Backpack",
+          "quantity": 1,
+          "unit_price": 1299.00
+        }
+      ],
+      "delivery_city": "Gurugram",
+      "status": "confirmed"
+    }
+  }
+]

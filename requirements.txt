@@ -1,0 +1,15 @@
+# Optional local tooling for validation, upload automation, and future extensions.
+#
+# The Snowpipe pipeline itself can be configured through AWS Console and
+# Snowflake Snowsight. These packages are useful if you later add Python
+# scripts for:
+# - uploading test files to S3
+# - validating JSON contracts
+# - connecting to Snowflake programmatically
+# - building small data quality checks
+
+boto3>=1.34.0
+botocore>=1.34.0
+snowflake-connector-python>=3.10.0
+pandas>=2.2.0
+python-dotenv>=1.0.1

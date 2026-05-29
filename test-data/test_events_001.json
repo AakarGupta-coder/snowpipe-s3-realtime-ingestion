@@ -1,0 +1,12 @@
+[
+  {
+    "event_id": "evt-001",
+    "event_time": "2026-05-29T05:15:00",
+    "user_id": "u001",
+    "payload": {
+      "action": "test_upload",
+      "source": "s3",
+      "status": "created"
+    }
+  }
+]

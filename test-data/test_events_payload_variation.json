@@ -1,0 +1,19 @@
+[
+  {
+    "event_id": "evt-004",
+    "event_time": "2026-05-29T05:18:00",
+    "user_id": "u004",
+    "payload": {
+      "action": "schema_variation_test",
+      "source": "s3",
+      "device": {
+        "type": "laptop",
+        "os": "windows"
+      },
+      "metrics": {
+        "latency_ms": 128,
+        "records": 4
+      }
+    }
+  }
+]

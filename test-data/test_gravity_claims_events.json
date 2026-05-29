@@ -1,0 +1,47 @@
+[
+  {
+    "event_id": "claim-20260529-5301",
+    "event_time": "2026-05-29T12:31:09",
+    "user_id": "claims-ingestion-service",
+    "payload": {
+      "event_type": "claim_received",
+      "source_system": "claims_feed",
+      "claim_id": "CLM-8302201",
+      "patient_id": "P-900143",
+      "payer": "Acme Health Plan",
+      "provider_id": "PRV-2041",
+      "service_date": "2026-05-22",
+      "claim_type": "professional",
+      "diagnosis_codes": [
+        "E11.9",
+        "I10"
+      ],
+      "procedure_codes": [
+        "99214"
+      ],
+      "billed_amount": 1850.00,
+      "allowed_amount": 1420.00,
+      "claim_status": "received"
+    }
+  },
+  {
+    "event_id": "claim-20260529-5302",
+    "event_time": "2026-05-29T12:52:40",
+    "user_id": "claims-ingestion-service",
+    "payload": {
+      "event_type": "claim_adjudicated",
+      "source_system": "claims_feed",
+      "claim_id": "CLM-8299117",
+      "patient_id": "P-771884",
+      "payer": "Acme Health Plan",
+      "provider_id": "PRV-1808",
+      "service_date": "2026-05-18",
+      "claim_type": "facility",
+      "billed_amount": 12300.00,
+      "allowed_amount": 9800.00,
+      "patient_responsibility": 750.00,
+      "claim_status": "paid",
+      "paid_date": "2026-05-29"
+    }
+  }
+]

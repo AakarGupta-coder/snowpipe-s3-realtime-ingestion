@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local environment files
+.env
+.env.*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated exports
+*.csv
+*.log
+exports/
+
+# Keep sample data, ignore accidental private data drops
+private-data/
+secrets/

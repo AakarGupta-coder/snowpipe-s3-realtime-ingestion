@@ -1,0 +1,56 @@
+[
+  {
+    "event_id": "gap-20260529-5101",
+    "event_time": "2026-05-29T09:02:15",
+    "user_id": "quality-engine-01",
+    "payload": {
+      "event_type": "care_gap_identified",
+      "source_system": "gravity",
+      "patient_id": "P-900143",
+      "measure_id": "HBD",
+      "measure_name": "HbA1c Poor Control",
+      "gap_status": "open",
+      "priority": "high",
+      "due_date": "2026-06-15",
+      "attributed_provider_id": "PRV-2041",
+      "payer": "Acme Health Plan",
+      "evidence": {
+        "last_hba1c_date": "2026-02-14",
+        "last_hba1c_value": 8.4
+      }
+    }
+  },
+  {
+    "event_id": "gap-20260529-5102",
+    "event_time": "2026-05-29T09:06:33",
+    "user_id": "quality-engine-01",
+    "payload": {
+      "event_type": "care_gap_closed",
+      "source_system": "gravity",
+      "patient_id": "P-771884",
+      "measure_id": "BCS",
+      "measure_name": "Breast Cancer Screening",
+      "gap_status": "closed",
+      "closure_reason": "screening_result_received",
+      "closed_by": "data_ingestion_job",
+      "result_date": "2026-05-27",
+      "attributed_provider_id": "PRV-1808"
+    }
+  },
+  {
+    "event_id": "gap-20260529-5103",
+    "event_time": "2026-05-29T09:11:41",
+    "user_id": "quality-engine-01",
+    "payload": {
+      "event_type": "care_gap_reassigned",
+      "source_system": "gravity",
+      "patient_id": "P-812009",
+      "measure_id": "COL",
+      "measure_name": "Colorectal Cancer Screening",
+      "previous_owner": "CM-091",
+      "new_owner": "CM-144",
+      "reason": "provider_panel_update",
+      "due_date": "2026-07-01"
+    }
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "event_id": "web-20260529-2001",
+    "event_time": "2026-05-29T10:02:31",
+    "user_id": "visitor-7781",
+    "payload": {
+      "event_type": "page_view",
+      "session_id": "sess-a91f",
+      "page": "/products/headphones",
+      "referrer": "google",
+      "device": "desktop",
+      "browser": "Chrome",
+      "country": "India"
+    }
+  },
+  {
+    "event_id": "web-20260529-2002",
+    "event_time": "2026-05-29T10:03:05",
+    "user_id": "visitor-7781",
+    "payload": {
+      "event_type": "add_to_cart",
+      "session_id": "sess-a91f",
+      "sku": "HEADPHONE-BT-01",
+      "quantity": 1,
+      "cart_value": 1999.00,
+      "device": "desktop"
+    }
+  },
+  {
+    "event_id": "web-20260529-2003",
+    "event_time": "2026-05-29T10:06:19",
+    "user_id": "visitor-7781",
+    "payload": {
+      "event_type": "checkout_started",
+      "session_id": "sess-a91f",
+      "cart_value": 2499.00,
+      "coupon_applied": "WELCOME10",
+      "device": "desktop"
+    }
+  }
+]

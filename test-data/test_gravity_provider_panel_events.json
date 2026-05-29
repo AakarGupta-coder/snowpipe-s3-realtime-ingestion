@@ -1,0 +1,36 @@
+[
+  {
+    "event_id": "panel-20260529-5401",
+    "event_time": "2026-05-29T13:15:27",
+    "user_id": "provider-ops-admin",
+    "payload": {
+      "event_type": "provider_panel_updated",
+      "source_system": "gravity",
+      "provider_id": "PRV-2041",
+      "provider_name": "Dr. Meera Kapoor",
+      "facility_id": "FAC-DEL-03",
+      "specialty": "endocrinology",
+      "panel_size": 1284,
+      "high_risk_patients": 176,
+      "new_patients_added": 18,
+      "patients_removed": 6,
+      "effective_date": "2026-05-29"
+    }
+  },
+  {
+    "event_id": "panel-20260529-5402",
+    "event_time": "2026-05-29T13:33:58",
+    "user_id": "provider-ops-admin",
+    "payload": {
+      "event_type": "provider_capacity_changed",
+      "source_system": "gravity",
+      "provider_id": "PRV-1902",
+      "provider_name": "Dr. Arjun Menon",
+      "facility_id": "FAC-MUM-01",
+      "specialty": "primary_care",
+      "weekly_capacity": 72,
+      "available_slots_next_14_days": 19,
+      "reason": "clinic_schedule_update"
+    }
+  }
+]

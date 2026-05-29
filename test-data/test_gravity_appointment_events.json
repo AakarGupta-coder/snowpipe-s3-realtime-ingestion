@@ -1,0 +1,37 @@
+[
+  {
+    "event_id": "appt-20260529-5201",
+    "event_time": "2026-05-29T10:20:00",
+    "user_id": "scheduler-api",
+    "payload": {
+      "event_type": "appointment_scheduled",
+      "source_system": "gravity",
+      "appointment_id": "APT-62045",
+      "patient_id": "P-900143",
+      "provider_id": "PRV-2041",
+      "facility_id": "FAC-DEL-03",
+      "appointment_type": "follow_up",
+      "specialty": "endocrinology",
+      "scheduled_start": "2026-06-03T14:30:00",
+      "visit_mode": "in_person",
+      "reason": "diabetes_follow_up"
+    }
+  },
+  {
+    "event_id": "appt-20260529-5202",
+    "event_time": "2026-05-29T10:44:19",
+    "user_id": "scheduler-api",
+    "payload": {
+      "event_type": "appointment_cancelled",
+      "source_system": "gravity",
+      "appointment_id": "APT-61888",
+      "patient_id": "P-812009",
+      "provider_id": "PRV-1902",
+      "facility_id": "FAC-MUM-01",
+      "appointment_type": "annual_wellness_visit",
+      "scheduled_start": "2026-05-30T11:00:00",
+      "cancel_reason": "patient_requested_reschedule",
+      "reschedule_required": true
+    }
+  }
+]

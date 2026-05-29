@@ -1,0 +1,41 @@
+[
+  {
+    "event_id": "pat-20260529-5001",
+    "event_time": "2026-05-29T08:05:22",
+    "user_id": "gravity-care-coordinator-014",
+    "payload": {
+      "event_type": "patient_profile_updated",
+      "source_system": "gravity",
+      "patient_id": "P-900143",
+      "mrn": "MRN-483920",
+      "risk_score": 0.78,
+      "risk_tier": "high",
+      "primary_condition": "type_2_diabetes",
+      "attributed_provider_id": "PRV-2041",
+      "care_program": "diabetes_management",
+      "updated_fields": [
+        "risk_score",
+        "care_program",
+        "preferred_contact_method"
+      ],
+      "preferred_contact_method": "sms",
+      "consent_status": "active"
+    }
+  },
+  {
+    "event_id": "pat-20260529-5002",
+    "event_time": "2026-05-29T08:12:48",
+    "user_id": "gravity-care-coordinator-014",
+    "payload": {
+      "event_type": "patient_enrolled_in_program",
+      "source_system": "gravity",
+      "patient_id": "P-900143",
+      "program_id": "CP-DIAB-2026",
+      "program_name": "Diabetes Remote Monitoring",
+      "enrollment_reason": "elevated_hba1c",
+      "latest_hba1c": 8.4,
+      "assigned_care_manager": "CM-117",
+      "next_review_date": "2026-06-12"
+    }
+  }
+]

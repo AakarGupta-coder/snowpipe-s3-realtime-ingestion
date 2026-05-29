@@ -1,0 +1,30 @@
+[
+  {
+    "event_id": "ticket-20260529-3001",
+    "event_time": "2026-05-29T11:22:10",
+    "user_id": "customer-1042",
+    "payload": {
+      "event_type": "support_ticket_created",
+      "ticket_id": "TCK-3001",
+      "category": "delivery",
+      "priority": "medium",
+      "subject": "Delivery date change request",
+      "source": "chatbot",
+      "assigned_queue": "logistics_support"
+    }
+  },
+  {
+    "event_id": "ticket-20260529-3002",
+    "event_time": "2026-05-29T11:45:54",
+    "user_id": "customer-1189",
+    "payload": {
+      "event_type": "support_ticket_created",
+      "ticket_id": "TCK-3002",
+      "category": "payment",
+      "priority": "high",
+      "subject": "Payment deducted twice",
+      "source": "email",
+      "assigned_queue": "payments_support"
+    }
+  }
+]
