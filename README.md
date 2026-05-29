@@ -668,4 +668,4 @@ flowchart LR
 
 ## License
 
-This repository is intended for educational, portfolio, and internship project use. Review organizational policies before adapting it for production.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
