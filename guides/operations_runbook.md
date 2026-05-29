@@ -1,5 +1,7 @@
 # Operations Runbook
 
+**Made by Aakar Gupta**
+
 This runbook provides day-to-day checks for the Snowpipe S3 ingestion pipeline.
 
 ## Runbook Purpose

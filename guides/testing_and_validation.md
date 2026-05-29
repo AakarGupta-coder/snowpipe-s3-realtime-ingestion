@@ -1,5 +1,7 @@
 # Testing and Validation Guide
 
+**Made by Aakar Gupta**
+
 This guide describes how to test the pipeline with the included JSON files.
 
 ## Goal

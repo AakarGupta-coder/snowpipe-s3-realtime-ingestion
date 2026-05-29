@@ -1,5 +1,7 @@
 # AWS Setup Guide
 
+**Made by Aakar Gupta**
+
 This guide describes the AWS resources required for the Snowpipe S3 ingestion pipeline.
 
 ## Outcome

@@ -1,5 +1,7 @@
 # Snowflake Setup Guide
 
+**Made by Aakar Gupta**
+
 This guide covers the Snowflake objects needed by the ingestion pipeline.
 
 ## Outcome

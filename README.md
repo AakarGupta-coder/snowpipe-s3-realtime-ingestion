@@ -12,6 +12,10 @@
   <strong>Event-driven AWS S3 to Snowflake ingestion pipeline using Snowpipe auto-ingest, IAM role-based security, external stages, and realistic healthcare/operations test data.</strong>
 </p>
 
+<p align="center">
+  <strong>Made by Aakar Gupta</strong>
+</p>
+
 ---
 
 ## Repository Metadata
@@ -19,6 +23,7 @@
 | Field | Value |
 |---|---|
 | Repository name | `snowpipe-s3-realtime-ingestion` |
+| Made by | Aakar Gupta |
 | Description | Event-driven S3 to Snowflake ingestion pipeline with Snowpipe, IAM storage integration, S3 event notifications, and healthcare-oriented event data |
 | Primary domain | Cloud data engineering |
 | Secondary domain | Healthcare analytics and operational data platforms |

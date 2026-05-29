@@ -1,5 +1,7 @@
 # Future Extensions
 
+**Made by Aakar Gupta**
+
 This guide describes how the project can evolve after the initial Snowpipe ingestion layer is working.
 
 ## 1. Curated Healthcare Tables

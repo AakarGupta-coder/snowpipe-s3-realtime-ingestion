@@ -1,5 +1,7 @@
 # Architecture and Concepts
 
+**Made by Aakar Gupta**
+
 This guide explains the concepts behind the S3 to Snowflake Snowpipe ingestion pattern.
 
 ## Core Idea

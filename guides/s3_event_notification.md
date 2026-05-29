@@ -1,5 +1,7 @@
 # S3 Event Notification Guide
 
+**Made by Aakar Gupta**
+
 This guide explains how to connect S3 object creation events to Snowpipe.
 
 ## Purpose

@@ -1,5 +1,7 @@
 # Data Contract
 
+**Made by Aakar Gupta**
+
 This document defines the event structure expected by the Snowpipe ingestion pipeline.
 
 ## Contract Purpose
